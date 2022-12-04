@@ -3,13 +3,14 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start:front": "nx serve frontpage",
+    "start:back": "nx serve backpage",
     "build": "nx build",
-    "test": "nx test"
+    "lint": "eslint --fix",
+    "generateTheme": "nx g @nrwl/react:component --project theme --style styled-components"
   },
   "private": true,
   "dependencies": {
-    "@nrwl/next": "15.2.4",
     "core-js": "^3.6.5",
     "next": "13.0.0",
     "react": "18.2.0",
@@ -25,12 +26,13 @@
     "@nrwl/eslint-plugin-nx": "15.2.4",
     "@nrwl/jest": "15.2.4",
     "@nrwl/linter": "15.2.4",
+    "@nrwl/next": "^15.2.4",
     "@nrwl/react": "15.2.4",
     "@nrwl/web": "15.2.4",
     "@nrwl/workspace": "15.2.4",
     "@testing-library/react": "13.4.0",
     "@types/jest": "28.1.1",
-    "@types/node": "16.11.7",
+    "@types/node": "18.7.18",
     "@types/react": "18.0.20",
     "@types/react-dom": "18.0.6",
     "@types/react-is": "17.0.3",

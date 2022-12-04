@@ -5,7 +5,6 @@ const StyledPage = styled.div`
   .page {
   }
 `;
-
 export function Index() {
   return (
     <StyledPage>
@@ -14,7 +13,7 @@ export function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome FrontPage 👋
+              Welcome BackPage 👋
             </h1>
           </div>
           <ProductCard />

@@ -5,7 +5,7 @@ function CustomApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Welcome to frontpage!</title>
+        <title>Welcome to backpage!</title>
       </Head>
       <main className="app">
         <Component {...pageProps} />
